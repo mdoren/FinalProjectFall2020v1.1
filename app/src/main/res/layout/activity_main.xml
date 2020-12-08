@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/idConstraintInScroll"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        tools:visibility="visible">
+
+        <TextView
+            android:id="@+id/idSelectGame"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:background="#E1000000"
+            android:gravity="center"
+            android:text="@string/idSelectGame"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/idSelectGame"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/idSSB1Button"
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#FFFFFF"
+            android:drawableStart="@drawable/ssb1"
+            android:gravity="center_vertical|end"
+            android:text="@string/idSSB1Button"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/idSelectGame"
+            tools:text="@string/idSSB1Button" />
+
+        <Button
+            android:id="@+id/idSSB2Button"
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#FFFFFF"
+            android:drawableStart="@drawable/ssb2"
+            android:gravity="center_vertical|end"
+            android:text="@string/idSSB2Button"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/idSSB1Button"
+            tools:text="@string/idSSB2Button" />
+
+        <Button
+            android:id="@+id/idSSB3Button"
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#FFFFFF"
+            android:drawableStart="@drawable/ssb3"
+            android:gravity="center_vertical|end"
+            android:text="@string/idSSB3Button"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/idSSB2Button"
+            tools:text="@string/idSSB3Button" />
+
+        <Button
+            android:id="@+id/idSSB4Button"
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#FFFFFF"
+            android:drawableStart="@drawable/ssb4"
+            android:gravity="center_vertical|end"
+            android:text="@string/idSSB4Button"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/idSSB3Button"
+            tools:text="@string/idSSB4Button" />
+
+        <Button
+            android:id="@+id/idSSB5Button"
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#FFFFFF"
+            android:drawableStart="@drawable/ssb5"
+            android:gravity="center_vertical|end"
+            android:text="@string/idSSB5Button"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/idSSB4Button"
+            tools:text="@string/idSSB5Button" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</ScrollView>

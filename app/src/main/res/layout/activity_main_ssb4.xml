@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivitySSB4">
+
+    <EditText
+        android:id="@+id/idEditTextSSB4"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:autofillHints="@string/idHintSSB4"
+        android:hint="@string/idHintSSB4"
+        android:inputType="text"
+        android:selectAllOnFocus="false"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </EditText>
+
+    <TextView
+        android:id="@+id/idScoreSSB4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/idScoreSSB4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/idEditTextSSB4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/idVillager"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/idVillager"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idEditTextSSB4"
+        tools:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/idMegaMan"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="55dp"
+        android:gravity="center"
+        android:text="@string/idMegaMan"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idVillager"
+        tools:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/idWiiFitTrainer"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="55dp"
+        android:gravity="center"
+        android:text="@string/idWiiFitTrainer"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idMegaMan"
+        tools:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/idRosalinaAndLuma"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="55dp"
+        android:gravity="center"
+        android:text="@string/idRosalinaAndLuma"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idWiiFitTrainer"
+        tools:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/idLittleMac"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="55dp"
+        android:gravity="center"
+        android:text="@string/idLittleMac"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idRosalinaAndLuma"
+        tools:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/idGreninja"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="55dp"
+        android:gravity="center"
+        android:text="@string/idGreninja"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idLittleMac"
+        tools:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/idMiiFighter"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="55dp"
+        android:gravity="center"
+        android:text="@string/idMiiFighter"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idGreninja"
+        tools:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/idPalutena"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="55dp"
+        android:gravity="center"
+        android:text="@string/idPalutena"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idMiiFighter"
+        tools:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/idDarkPit"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="55dp"
+        android:gravity="center"
+        android:text="@string/idDarkPit"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idPalutena"
+        tools:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/idPacMan"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="55dp"
+        android:gravity="center"
+        android:text="@string/idPacMan"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/idVillager"
+        app:layout_constraintTop_toBottomOf="@+id/idEditTextSSB4" />
+
+    <TextView
+        android:id="@+id/idRobin"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="55dp"
+        android:gravity="center"
+        android:text="@string/idRobin"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/idMegaMan"
+        app:layout_constraintTop_toBottomOf="@+id/idPacMan" />
+
+    <TextView
+        android:id="@+id/idLucina"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="55dp"
+        android:gravity="center"
+        android:text="@string/idLucina"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/idWiiFitTrainer"
+        app:layout_constraintTop_toBottomOf="@+id/idRobin" />
+
+    <TextView
+        android:id="@+id/idShulk"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="55dp"
+        android:gravity="center"
+        android:text="@string/idShulk"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/idRosalinaAndLuma"
+        app:layout_constraintTop_toBottomOf="@+id/idLucina" />
+
+    <TextView
+        android:id="@+id/idBowserJr"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="55dp"
+        android:gravity="center"
+        android:text="@string/idBowserJr"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/idLittleMac"
+        app:layout_constraintTop_toBottomOf="@+id/idShulk" />
+
+    <TextView
+        android:id="@+id/idDuckHunt"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="55dp"
+        android:gravity="center"
+        android:text="@string/idDuckHunt"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/idGreninja"
+        app:layout_constraintTop_toBottomOf="@+id/idBowserJr" />
+
+    <TextView
+        android:id="@+id/idRyu"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="55dp"
+        android:gravity="center"
+        android:text="@string/idRyu"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/idMiiFighter"
+        app:layout_constraintTop_toBottomOf="@+id/idDuckHunt" />
+
+    <TextView
+        android:id="@+id/idCloud"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="55dp"
+        android:gravity="center"
+        android:text="@string/idCloud"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/idPalutena"
+        app:layout_constraintTop_toBottomOf="@+id/idRyu" />
+
+    <TextView
+        android:id="@+id/idCorrin"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="55dp"
+        android:gravity="center"
+        android:text="@string/idCorrin"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/idDarkPit"
+        app:layout_constraintTop_toBottomOf="@+id/idCloud" />
+
+    <TextView
+        android:id="@+id/idBayonetta"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="@string/idBayonetta"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idCorrin" />
+
+    <Button
+        android:id="@+id/idButtonCheckSSB4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/idButtonCheckSSB4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/idEditTextSSB4"
+        app:layout_constraintTop_toBottomOf="@+id/idScoreSSB4" />
+</androidx.constraintlayout.widget.ConstraintLayout>
