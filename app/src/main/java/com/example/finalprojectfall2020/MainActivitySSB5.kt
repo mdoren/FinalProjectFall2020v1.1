@@ -37,12 +37,13 @@ class MainActivitySSB5 : AppCompatActivity() {
         val characterByleth: TextView = findViewById(R.id.idByleth)
         val characterMinMin: TextView = findViewById(R.id.idMinMin)
         val characterSteve: TextView = findViewById(R.id.idSteve)
+        val characterSephiroth: TextView = findViewById(R.id.idSephiroth)
         val scoreKeeper: TextView = findViewById(R.id.idScoreSSB5)
 
         fun makeCharacterVisible(smashCharacterSearch:EditText, characterAny: TextView) {
             if (characterAny.isInvisible){
                 score++
-                scoreKeeper.setText("$score/19", TextView.BufferType.EDITABLE)
+                scoreKeeper.setText("$score/20", TextView.BufferType.EDITABLE)
                 smashCharacterSearch.setText("",TextView.BufferType.EDITABLE)
             }
             characterAny.visibility= View.VISIBLE
@@ -54,28 +55,29 @@ class MainActivitySSB5 : AppCompatActivity() {
         smashCharacterButton.setOnClickListener {
             val smashCharacterString = smashCharacterSearch.getText().toString()
             when {
-                smashCharacterString.equals("Inkling", true) -> makeCharacterVisible(smashCharacterSearch,characterInkling)
-                smashCharacterString.equals("Daisy", true) -> makeCharacterVisible(smashCharacterSearch,characterDaisy)
-                smashCharacterString.equals("Ridley", true) -> makeCharacterVisible(smashCharacterSearch,characterRidley)
-                smashCharacterString.equals("Simon", true) -> makeCharacterVisible(smashCharacterSearch,characterSimon)
-                smashCharacterString.equals("Richter", true) -> makeCharacterVisible(smashCharacterSearch,characterRichter)
-                smashCharacterString.equals("Chrom", true) -> makeCharacterVisible(smashCharacterSearch,characterChrom)
-                smashCharacterString.equals("Dark Samus", true) -> makeCharacterVisible(smashCharacterSearch,characterDarkSamus)
-                smashCharacterString.equals("King K. Rool", true) -> makeCharacterVisible(smashCharacterSearch,characterKingKRool)
-                smashCharacterString.equals("King K Rool", true) -> makeCharacterVisible(smashCharacterSearch,characterKingKRool)
-                smashCharacterString.equals("Isabelle", true) -> makeCharacterVisible(smashCharacterSearch,characterIsabelle)
-                smashCharacterString.equals("Ken", true) -> makeCharacterVisible(smashCharacterSearch,characterKen)
-                smashCharacterString.equals("Incineroar", true) -> makeCharacterVisible(smashCharacterSearch,characterIncineroar)
-                smashCharacterString.equals("Piranha Plant", true) -> makeCharacterVisible(smashCharacterSearch,characterPiranhaPlant)
-                smashCharacterString.equals("Joker", true) -> makeCharacterVisible(smashCharacterSearch,characterJoker)
-                smashCharacterString.equals("Hero", true) -> makeCharacterVisible(smashCharacterSearch,characterHero)
-                smashCharacterString.equals("Banjo & Kazooie", true) -> makeCharacterVisible(smashCharacterSearch,characterBanjoAndKazooie)
-                smashCharacterString.equals("Banjo Kazooie", true) -> makeCharacterVisible(smashCharacterSearch,characterBanjoAndKazooie)
-                smashCharacterString.equals("Banjo and Kazooie", true) -> makeCharacterVisible(smashCharacterSearch,characterBanjoAndKazooie)
-                smashCharacterString.equals("Terry", true) -> makeCharacterVisible(smashCharacterSearch,characterTerry)
-                smashCharacterString.equals("Byleth", true) -> makeCharacterVisible(smashCharacterSearch,characterByleth)
-                smashCharacterString.equals("Min Min", true) -> makeCharacterVisible(smashCharacterSearch,characterMinMin)
-                smashCharacterString.equals("Steve", true) -> makeCharacterVisible(smashCharacterSearch,characterSteve)
+                smashCharacterString.trim().equals("Inkling", true) -> makeCharacterVisible(smashCharacterSearch,characterInkling)
+                smashCharacterString.trim().equals("Daisy", true) -> makeCharacterVisible(smashCharacterSearch,characterDaisy)
+                smashCharacterString.trim().equals("Ridley", true) -> makeCharacterVisible(smashCharacterSearch,characterRidley)
+                smashCharacterString.trim().equals("Simon", true) -> makeCharacterVisible(smashCharacterSearch,characterSimon)
+                smashCharacterString.trim().equals("Richter", true) -> makeCharacterVisible(smashCharacterSearch,characterRichter)
+                smashCharacterString.trim().equals("Chrom", true) -> makeCharacterVisible(smashCharacterSearch,characterChrom)
+                smashCharacterString.trim().equals("Dark Samus", true) -> makeCharacterVisible(smashCharacterSearch,characterDarkSamus)
+                smashCharacterString.trim().equals("King K. Rool", true) -> makeCharacterVisible(smashCharacterSearch,characterKingKRool)
+                smashCharacterString.trim().equals("King K Rool", true) -> makeCharacterVisible(smashCharacterSearch,characterKingKRool)
+                smashCharacterString.trim().equals("Isabelle", true) -> makeCharacterVisible(smashCharacterSearch,characterIsabelle)
+                smashCharacterString.trim().equals("Ken", true) -> makeCharacterVisible(smashCharacterSearch,characterKen)
+                smashCharacterString.trim().equals("Incineroar", true) -> makeCharacterVisible(smashCharacterSearch,characterIncineroar)
+                smashCharacterString.trim().equals("Piranha Plant", true) -> makeCharacterVisible(smashCharacterSearch,characterPiranhaPlant)
+                smashCharacterString.trim().equals("Joker", true) -> makeCharacterVisible(smashCharacterSearch,characterJoker)
+                smashCharacterString.trim().equals("Hero", true) -> makeCharacterVisible(smashCharacterSearch,characterHero)
+                smashCharacterString.trim().equals("Banjo & Kazooie", true) -> makeCharacterVisible(smashCharacterSearch,characterBanjoAndKazooie)
+                smashCharacterString.trim().equals("Banjo Kazooie", true) -> makeCharacterVisible(smashCharacterSearch,characterBanjoAndKazooie)
+                smashCharacterString.trim().equals("Banjo and Kazooie", true) -> makeCharacterVisible(smashCharacterSearch,characterBanjoAndKazooie)
+                smashCharacterString.trim().equals("Terry", true) -> makeCharacterVisible(smashCharacterSearch,characterTerry)
+                smashCharacterString.trim().equals("Byleth", true) -> makeCharacterVisible(smashCharacterSearch,characterByleth)
+                smashCharacterString.trim().equals("Min Min", true) -> makeCharacterVisible(smashCharacterSearch,characterMinMin)
+                smashCharacterString.trim().equals("Steve", true) -> makeCharacterVisible(smashCharacterSearch,characterSteve)
+                smashCharacterString.trim().equals("Sephiroth",true) -> makeCharacterVisible(smashCharacterSearch, characterSephiroth)
             }
         }
     }
