@@ -52,18 +52,18 @@ class MainActivitySSB1 : AppCompatActivity() {
         smashCharacterButton.setOnClickListener {
             val smashCharacterString = smashCharacterSearch.getText().toString()
             when {
-                smashCharacterString.equals("Mario", true) -> makeCharacterVisible(smashCharacterSearch,characterMario)
-                smashCharacterString.equals("Donkey Kong", true) -> makeCharacterVisible(smashCharacterSearch, characterDonkeyKong)
-                smashCharacterString.equals("Link",true) -> makeCharacterVisible(smashCharacterSearch, characterLink)
-                smashCharacterString.equals("Samus",true) -> makeCharacterVisible(smashCharacterSearch, characterSamus)
-                smashCharacterString.equals("Yoshi",true) -> makeCharacterVisible(smashCharacterSearch, characterYoshi)
-                smashCharacterString.equals("Kirby",true) -> makeCharacterVisible(smashCharacterSearch, characterKirby)
-                smashCharacterString.equals("Fox",true) -> makeCharacterVisible(smashCharacterSearch, characterFox)
-                smashCharacterString.equals("Pikachu",true) -> makeCharacterVisible(smashCharacterSearch, characterPikachu)
-                smashCharacterString.equals("Luigi",true) -> makeCharacterVisible(smashCharacterSearch, characterLuigi)
-                smashCharacterString.equals("Ness",true) -> makeCharacterVisible(smashCharacterSearch, characterNess)
-                smashCharacterString.equals("Captain Falcon",true) -> makeCharacterVisible(smashCharacterSearch, characterCaptainFalcon)
-                smashCharacterString.equals("Jigglypuff",true) -> makeCharacterVisible(smashCharacterSearch, characterJigglypuff)
+                smashCharacterString.trim().equals("Mario", true) -> makeCharacterVisible(smashCharacterSearch,characterMario)
+                smashCharacterString.trim().equals("Donkey Kong", true) -> makeCharacterVisible(smashCharacterSearch, characterDonkeyKong)
+                smashCharacterString.trim().equals("Link",true) -> makeCharacterVisible(smashCharacterSearch, characterLink)
+                smashCharacterString.trim().equals("Samus",true) -> makeCharacterVisible(smashCharacterSearch, characterSamus)
+                smashCharacterString.trim().equals("Yoshi",true) -> makeCharacterVisible(smashCharacterSearch, characterYoshi)
+                smashCharacterString.trim().equals("Kirby",true) -> makeCharacterVisible(smashCharacterSearch, characterKirby)
+                smashCharacterString.trim().equals("Fox",true) -> makeCharacterVisible(smashCharacterSearch, characterFox)
+                smashCharacterString.trim().equals("Pikachu",true) -> makeCharacterVisible(smashCharacterSearch, characterPikachu)
+                smashCharacterString.trim().equals("Luigi",true) -> makeCharacterVisible(smashCharacterSearch, characterLuigi)
+                smashCharacterString.trim().equals("Ness",true) -> makeCharacterVisible(smashCharacterSearch, characterNess)
+                smashCharacterString.trim().equals("Captain Falcon",true) -> makeCharacterVisible(smashCharacterSearch, characterCaptainFalcon)
+                smashCharacterString.trim().equals("Jigglypuff",true) -> makeCharacterVisible(smashCharacterSearch, characterJigglypuff)
 
             }
 
